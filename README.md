@@ -5,7 +5,7 @@ A simple controller wrapper built on pygame for easy game controller input handl
 ## Installation
 
 ```bash
-pip install simple_controller
+pip install git+https://github.com/Cruz-Caine/Simple-Controller
 ```
 
 ## Requirements
