@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simple_controller"
+version = "0.0.1"
+authors = [
+  { name="Cruz Caine", email="cruz@cruzcaine.com" },
+]
+description = "A simple controller wrapper built on pygame."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = ["pygame"]
