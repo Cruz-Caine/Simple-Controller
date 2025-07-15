@@ -16,3 +16,6 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = ["pygame"]
+
+[tool.hatchling.build.targets.wheel]
+ packages = ["src/simple_controller"]
